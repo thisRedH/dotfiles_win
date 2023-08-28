@@ -1,4 +1,4 @@
-@echo off && cls
+@echo off
 
 if not "%~1" == "" set LINK="%~1" & GOTO GIT
 
