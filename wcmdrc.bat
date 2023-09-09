@@ -1,5 +1,9 @@
 @ECHO OFF
 
+:: Add the file path from this file to AutoRun (type REG_SZ) located at:
+:: HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor
+:: HKEY_CURRENT_USER\Software\Microsoft\Command Processor
+
 :: Settings
 SET dev_dir=F:\dev
 SET home_dir=%UserProfile%\Desktop
