@@ -23,8 +23,8 @@ IF EXIST C:\lazy_git_clone.bat (
 :: Nix commands
 DOSKEY pwd=cd
 DOSKEY clear=cls
-DOSKEY ls=dir /A $1
-DOSKEY ll=dir /B $1
+DOSKEY ls=dir /B $1
+DOSKEY ll=dir /A $1
 DOSKEY touch=echo. ^> $1
 DOSKEY cat=type $*
 DOSKEY grep=findstr /R $*
